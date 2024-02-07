@@ -1,0 +1,28 @@
+{
+  "greetings": "Hello! I'm",
+  "name": "Matheus Fraresso",
+  "subtitle": "And I engineer quality software!",
+  "presentation": [
+    "I am a brazillian software developer with a passion for solving problems and optimizing solutions",
+    "Currently working as a freelance developer building mainly React applications",
+    "When I'm not coding, I like to explore the outdoors and read fantasy."
+  ],
+  "homepage": {
+    "about": {
+      "paragraphs": [
+        " I got first introduced to programming at 15 when I started myInformatics Technical degree at<a target=\"__blank\" href=\"https://ifpr.edu.br/curitiba/\">  Instituto Federal do Paraná</a>{where I graduated in 2016",
+        "After a year in military service I continued my journey studying programming in<a href=\"https://ufpr.br/\" target=\"__blank\">  Universidade Federal do Paraná</a> where I'm curently persuing my Bachelors degree in Computer Science with a final paper researching Database performances on relational data",
+        " I'm curretly working as a freelanecer developer, helping clientsbuild their projects and choosing the right technologies for theirneeds",
+        "I have experience architecting, developing and deploying web applications in both front and back ends, I also took the lead in several complex and high stake projects and mentored new developers in the begginning of their journey"
+      ],
+      "technologies": [
+        "Javascript / Python / Java / C",
+        "React.js / Vue.js / Next.js / TanstackQuery",
+        "Node.js / Nest.js / Bun",
+        "MongoDB, Postgres SAP (Hana / Service Layer)",
+        "Testes (unitários / E2E)",
+        "CI/CD (GitLab / Heroku) Azure / scrum / Agile"
+      ]
+    }
+  }
+}

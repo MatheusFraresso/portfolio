@@ -2,6 +2,7 @@ import React from "react"
 import NavigationBar from "./Components/NavigationBar"
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
 import Home from "./Pages/Home"
+import Footer from "./Components/Footer"
 
 const router = createBrowserRouter([
   {
@@ -12,10 +13,17 @@ const router = createBrowserRouter([
 
 function App() {
   return (
-    <div>
-      <NavigationBar></NavigationBar>
-      <RouterProvider router={router} />
-    </div>
+    <>
+      <header>
+        <NavigationBar></NavigationBar>
+      </header>
+      <main>
+        <RouterProvider router={router} />
+      </main>
+      <footer>
+        <Footer></Footer>
+      </footer>
+    </>
   )
 }
 

@@ -3,6 +3,9 @@
   "homepage": "https://MatheusFraresso.github.io/portfolio",
   "version": "0.1.0",
   "private": true,
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
     "@testing-library/jest-dom": "^5.17.0",

@@ -24,26 +24,19 @@ function Home() {
     }, [])
     return (
       <>
-        <div id={id}></div>{" "}
-        <section
-          ref={domRef}
-          className={`home-section fade-in-section ${
-            visible ? "is-visible" : ""
-          }`}
-        >
+        <section ref={domRef} id={id}>
           {children}
         </section>
       </>
     )
   }
-
   return (
-    <div className="content-wrapper">
+    <>
       <Presentation></Presentation>
       {sections.map((section) => (
         <FadeInElement id={section.id}>{section.component}</FadeInElement>
       ))}
-    </div>
+    </>
   )
 }
 export default Home
